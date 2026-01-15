@@ -1,0 +1,42 @@
+<style>
+
+.one {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 5px;
+  position: static;
+  
+}
+.two {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  margin: 5px;
+  position: relative;
+  left: 40px;
+  top: 20px;
+  z-index: 1; /* This will make it appear above .one */
+}
+.three {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  margin: 5px;
+    position: relative;
+    z-index: 2; /* This will make it appear above .two */
+}
+
+</style>
+
+<div class="one">
+
+</div>
+
+<div class="two">
+
+</div>
+
+<div class="three">
+
+</div>

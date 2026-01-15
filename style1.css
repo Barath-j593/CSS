@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+ul,li,nav{
+    display: inline-block;
+}
+ul{
+    padding-top: 5px;
+}
+
+img {
+    width: 215px;
+    height: 220px;
+    
+}
+
+.body{
+    padding-top: 20px;
+    
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.recipe{
+    margin-top: 3px;
+    display: inline-block;
+    text-align: center;
+    width: 220px;
+    border: 2px solid black;
+}
+
+button{
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.recipe:hover {
+    border: 3px solid black; /* Tomato color on hover */
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    background-color: white; /* Darker shade on hover */
+    color: black;
+}
